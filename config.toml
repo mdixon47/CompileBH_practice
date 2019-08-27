@@ -19,7 +19,7 @@ title = "Compile Black Hills"
 # Navigation section
 [params.nav]
   mission = "Our Mission"
-  services = "Services"
+  events = "events"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -62,32 +62,32 @@ title = "Compile Black Hills"
     subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
     description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-# Services section
-[params.services]
+# events section
+[params.events]
   enable = true
   video = true
   vidlink = "#"
   title = "Our Events"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
+  [[params.events.item]]
     icon = "images/icons/webdevicon.png"
     title = "Web Development"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
+  [[params.events.item]]
     icon = "images/icons/softwaredevicon.png"
     title = "Software Development"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
+  [[params.events.item]]
     icon = "images/icons/mobiledev.png"
     title = "Mobile Development"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   
 
-  [[params.services.item]]
+  [[params.events.item]]
     icon = "images/icons/DevOps.png"
     title = "DevOps"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
