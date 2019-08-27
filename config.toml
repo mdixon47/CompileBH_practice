@@ -44,7 +44,7 @@ title = "Compile Black Hills"
   [[params.mission.item]]
     weight = 1
     name = "CompileBlackHills"
-    title = "Information"
+    title = "Mission"
     subtitle = "Our focus is on two things: Linking software professionals and promoting ongoing Learning. "
     description = "<p>Compile Black Hills is an organization dedicated to building a local commuinity of software developers in the Black Hills of South Dakota. We focus on two things:<br /><br /><ul class='checked'><li>Providing opportunities for developers to meet each other converse - be that in person or online</li><li>Encouraging learning and growth by sharing knowledge and experience among the community.</li></ul></p>"
 
@@ -53,7 +53,7 @@ title = "Compile Black Hills"
     name = "Linking"
     title = "Linking"
     subtitle = "Opportunities to meet other professionals"
-    description = "<p>We think it's important to be a part of a community. The Black Hills are home to a wide variety of teams, from enterprise level to individual remote developers. In a fragmented world, it can be hard to meet others who share the same passion for development.</p><p>Compile Black Hills is working to provide opportunties for developers to meet and interact in different ways: </p><ul class='checked'><li>Holding events to give developers a place to meet</li><li>Maintaining a Slack channel</li></ul>"
+    description = "<p>We think it's important to be a part of a community. The Black Hills are home to a wide variety of teams, from enterprise level to individual remote developers. In a fragmented world, it can be hard to meet others who share the same passion for development.</p><p>Compile Black Hills is working to provide opportunties for developers to meet and interact in different ways:<ul class='checked'><li>Holding events to give developers a place to meet</li><li>Maintaining a Slack channel</li></ul></p>"
 
   [[params.mission.item]]
     weight = 3
@@ -65,7 +65,7 @@ title = "Compile Black Hills"
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "#"
   title = "Our Events"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
