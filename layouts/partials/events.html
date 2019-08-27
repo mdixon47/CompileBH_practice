@@ -1,9 +1,5 @@
 <div id="fh5co-events" data-section="events">
   {{ with .Site.Params.events }}
-  {{ if .video }}
-  <div class="fh5co-video"><a href="{{ with .vidlink }}{{ . }}{{ end }}" class="popup-vimeo"><i
-        class="icon-play2"></i></a> <span>Watch video</span></div>
-  {{ end }}
   <div class="container">
     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
       <h2>{{ .title | markdownify }}</h2>
