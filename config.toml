@@ -13,13 +13,13 @@ title = "Compile Black Hills"
 [params.hero]
   img = "images/hero_vbg.jpg"
   logo_img = "images/CompileBHLogo.png"
-  title = "Linking Software Professionals"
-  description = "We are a local group of developers sharing information and experience."
+  title = "// Compile Black Hills"
+  description = "Linking Software Professionals"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  events = "events"
+  mission = "Mission"
+  services = "Events"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -43,56 +43,42 @@ title = "Compile Black Hills"
 
   [[params.mission.item]]
     weight = 1
-    name = "Echosystem"
-    title = "Echosystem"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "CompileBlackHills"
+    title = "Mission"
+    subtitle = "Our focus is on two things: Linking software professionals and promoting ongoing Learning. "
+    description = "<p>Compile Black Hills is an organization dedicated to building a local commuinity of software developers in the Black Hills of South Dakota. We focus on two things:<br /><br /><ul class='checked'><li>Providing opportunities for developers to meet each other converse - be that in person or online</li><li>Encouraging learning and growth by sharing knowledge and experience among the community.</li></ul></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "Information"
-    title = "Infomation"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "Linking"
+    title = "Linking"
+    subtitle = "Opportunities to meet other professionals"
+    description = "<p>We think it's important to be a part of a community. The Black Hills are home to a wide variety of teams, from enterprise level to individual remote developers. In a fragmented world, it can be hard to meet others who share the same passion for development.</p><p>Compile Black Hills is working to provide opportunties for developers to meet and interact in different ways:<ul class='checked'><li>Holding events to give developers a place to meet</li><li>Maintaining a Slack channel</li></ul></p>"
 
   [[params.mission.item]]
     weight = 3
-    name = "Direction"
-    title = "Direction"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "Learning"
+    title = "Learning"
+    subtitle = "Software changes fast - sometimes it's hard to stay up to date"
+    description = "<p>It can be hard to find time to stay on top of the latest trends - and to know which ones are worth learning and which ones are fads. Hear what's working (and what isn't) from other developers in person. We hold events where locals can meet in person and share knowledge - dedicated time to learn new things, challenge old ideas, and expand your skillset.</p>"
 
 # events section
 [params.events]
   enable = true
-  video = true
+  video = false
   vidlink = "#"
-  title = "Our Events"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.events.item]]
-    icon = "images/icons/webdevicon.png"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Events"
+  description = "See what events we have planned and review content from past presentations"
 
   [[params.events.item]]
     icon = "images/icons/softwaredevicon.png"
-    title = "Software Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Kickoff Event"
+    description = "<p>Join us as we have our first event at Black Hills Energy on September 10th!</p><p>Presentation topic: <br />DevOps - How a Local Developer is Improving How His Company Works</p>"
 
-  [[params.events.item]]
-    icon = "images/icons/mobiledev.png"
-    title = "Mobile Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  
-
-  [[params.events.item]]
-    icon = "images/icons/DevOps.png"
-    title = "DevOps"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  
+  [[params.services.item]]
+    icon = "images/icons/softwaredevicon.png"
+    title = "vNext"
+    description = "More information coming soon!"  
 
 # Work section
 [params.work]
@@ -192,11 +178,11 @@ title = "Compile Black Hills"
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Get Connected"
+  message = "Stay informed by joining our mailing list - we'll keep you up to date on the next Compile Black Hills events."
   name_placeholder = "Your name"
   email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
+  email_disclaimer = "We'll never share your email without your permission."
   message_placeholder = "Please enter a message."
   button_text = "Submit"
 
