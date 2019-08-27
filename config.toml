@@ -18,8 +18,8 @@ title = "Compile Black Hills"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  services = "Services"
+  mission = "Mission"
+  services = "Events"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -67,36 +67,22 @@ title = "Compile Black Hills"
   enable = true
   video = false
   vidlink = "#"
-  title = "Our Events"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "images/icons/webdevicon.png"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Events"
+  description = "See what events we have planned and review content"
 
   [[params.services.item]]
     icon = "images/icons/softwaredevicon.png"
-    title = "Software Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Kickoff Event"
+    description = "<p>Join us as we have our first event at Black Hills Energy on September 10th!</p><p>Presentation topic: <br />DevOps - How a Local Developer is Improving How His Company Works</p>"
 
   [[params.services.item]]
-    icon = "images/icons/mobiledev.png"
-    title = "Mobile Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  
-
-  [[params.services.item]]
-    icon = "images/icons/DevOps.png"
-    title = "DevOps"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  
+    icon = "images/icons/softwaredevicon.png"
+    title = "vNext"
+    description = "More information coming soon!"  
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
@@ -140,7 +126,7 @@ title = "Compile Black Hills"
 
 # Team section
 [params.team]
-  enable = true
+  enable = false
   title = "Meet The Team"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
@@ -192,11 +178,11 @@ title = "Compile Black Hills"
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Get Connected"
+  message = "Stay informed by joining our mailing list - we'll keep you up to date on the next Compile Black Hills events."
   name_placeholder = "Your name"
   email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
+  email_disclaimer = "We'll never share your email without your permission."
   message_placeholder = "Please enter a message."
   button_text = "Submit"
 
