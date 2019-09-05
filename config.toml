@@ -13,8 +13,8 @@ title = "Compile Black Hills"
 [params.hero]
   img = "images/hero_vbg.jpg"
   logo_img = "images/CompileBHLogo.png"
-  title = "// Compile Black Hills"
-  description = "Linking Software Professionals"
+  title = "Linking Software Professionals"
+  description = "Building a local commuinity of software developers in the Black Hills."
 
 # Navigation section
 [params.nav]
