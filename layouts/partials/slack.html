@@ -1,4 +1,13 @@
-<div id="fh5co-slack" data-section="slack">
-
-
+<div id="fh5co-slack" data-section="slack"
+    style="background-image: url({{ with .Site.Params.slack.img }}{{ . | absURL }}{{ end }});">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="fh5co-copy">
+                <div class=" fh5co-copy-inner  text-center">
+                    <h1>{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h1>
+                    <h2>{{ with .Site.Params.hero.description }}{{ . | markdownify }}{{ end }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

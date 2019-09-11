@@ -18,8 +18,9 @@ title = "Compile Black Hills"
 
 # Navigation section
 [params.nav]
-  mission = "Mission"
-  services = "Events"
+  mission = "The Mission"
+  events = "Our Events"
+  slack = "Slack"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -67,7 +68,7 @@ title = "Compile Black Hills"
   enable = true
   video = false
   vidlink = "#"
-  title = "Events"
+  title = "Our Events"
   description = "See what events we have planned and review content from past presentations"
 
   [[params.events.item]]
@@ -75,54 +76,19 @@ title = "Compile Black Hills"
     title = "Kickoff Event"
     description = "<p>Join us as we have our first event at Black Hills Energy on September 10th!</p><p>Presentation topic: <br />DevOps - How a Local Developer is Improving How His Company Works</p>"
 
-  [[params.services.item]]
+  [[params.events.item]]
     icon = "images/icons/softwaredevicon.png"
     title = "vNext"
     description = "More information coming soon!"  
 
 # Work section
-[params.work]
+[params.slack]
   enable = true
+  title = "Join our Slack Channel"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  img = "images/hero_vbg.jpg"
 
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
+  
 
 # Team section
 [params.team]
