@@ -1,0 +1,163 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = ""
+languageCode = "en-AU"
+title = "Compile Black Hills"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_vbg.jpg"
+  logo_img = "images/CompileBHLogo.png"
+  title = "Linking Software Professionals"
+  description = "Building a local commuinity of software developers in the Black Hills."
+
+# Navigation section
+[params.nav]
+  mission = "The Mission"
+  events = "Our Events"
+  slack = "Slack"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_v4.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_v3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_v1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_v2.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "CompileBlackHills"
+    title = "Mission"
+    subtitle = "Our focus is on two things: Linking software professionals and promoting ongoing Learning. "
+    description = "<p>Compile Black Hills is an organization dedicated to building a local commuinity of software developers in the Black Hills of South Dakota. We focus on two things:<br /><br /><ul class='checked'><li>Providing opportunities for developers to meet each other converse - be that in person or online</li><li>Encouraging learning and growth by sharing knowledge and experience among the community.</li></ul></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "Linking"
+    title = "Linking"
+    subtitle = "Opportunities to meet other professionals"
+    description = "<p>We think it's important to be a part of a community. The Black Hills are home to a wide variety of teams, from enterprise level to individual remote developers. In a fragmented world, it can be hard to meet others who share the same passion for development.</p><p>Compile Black Hills is working to provide opportunties for developers to meet and interact in different ways:<ul class='checked'><li>Holding events to give developers a place to meet</li><li>Maintaining a Slack channel</li></ul></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "Learning"
+    title = "Learning"
+    subtitle = "Software changes fast - sometimes it's hard to stay up to date"
+    description = "<p>It can be hard to find time to stay on top of the latest trends - and to know which ones are worth learning and which ones are fads. Hear what's working (and what isn't) from other developers in person. We hold events where locals can meet in person and share knowledge - dedicated time to learn new things, challenge old ideas, and expand your skillset.</p>"
+
+# events section
+[params.events]
+  enable = true
+  video = false
+  vidlink = "#"
+  title = "Pain"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  content = ""
+
+  
+    
+
+ 
+
+# Work section
+[params.slack]
+  enable = true
+  title = "Join our Slack Channel"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  img = "images/hero_vbg.jpg"
+
+  
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+ 
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get Connected"
+  message = "Stay informed by joining our mailing list - we'll keep you up to date on the next Compile Black Hills events."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email without your permission."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  logosm_img = "images/CompileBHLogoSM.png"
+  note = "<p><small>&copy;Compile Black Hills, All Rights Reserved.</p>"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+  
