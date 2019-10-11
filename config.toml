@@ -68,14 +68,18 @@ title = "Compile Black Hills"
   enable = true
   video = false
   vidlink = "#"
-  title = "Pain"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  content = ""
+  title = "Our Events"
+  description = "See what events we have planned and review content from past presentations"
 
-  
-    
+  [[params.events.item]]
+    icon = "images/icons/softwaredevicon.png"
+    title = "Kickoff Event"
+    description = "<p>Join us as we have our first event at Black Hills Energy on September 10th!</p><p>Presentation topic: <br />DevOps - How a Local Developer is Improving How His Company Works</p>"
 
- 
+  [[params.events.item]]
+    icon = "images/icons/softwaredevicon.png"
+    title = "vNext"
+    description = "More information coming soon!"  
 
 # Work section
 [params.slack]
